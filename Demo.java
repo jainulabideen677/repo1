@@ -17,7 +17,9 @@ class Demo {
     private  int fun1(int a) {
         return a;
     } 
-    public static void main(String[] args) {Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
         int n; 
         n=Integer.parseInt(sc.nextLine());
         int k=Integer.parseInt(sc.nextLine());
